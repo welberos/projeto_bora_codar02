@@ -1,0 +1,133 @@
+body{
+  position: relative;
+  background: black;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-family: 'Roboto' , sans-serif;
+  color: azure;
+  font-size: 20px;
+}
+
+section {
+  border-radius: 10px;
+  position: relative;
+  width: 875px;
+  height: 498px;
+  background: rgba(217, 205, 247, 1) ;
+  display: flex;
+  align-items: center;
+
+}
+
+#card {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+#button {
+  position: absolute;
+  left: 366px;
+  top: 135px;
+  width: 33px;
+  height: 23px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#button:hover {
+  cursor: pointer;
+  opacity: 0.5;
+  transition: 0.4s;
+}
+
+
+
+#image .image-gif {
+  width: 449px;
+  height: 253px;
+}
+
+
+
+#cod {
+  font-size: 10px;
+  line-height: 100%;
+  color: #271A45;
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  opacity: 0.67;
+}
+
+#nameSofa {
+  
+  font-family: 'Lato', sans-serif;
+  font-size: 26px;
+
+  color: #271A45;
+}
+
+#txt {
+  width: 281px;
+  height: 82px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+#LadoD {
+  position: relative;
+  
+}
+
+#valor {
+  font-family: 'Lato', sans-serif;
+  opacity: 0.67;
+  color: #271A45;
+  font-style: normal;
+  
+}
+
+input#addCesta {
+  box-sizing: border-box;
+  font-family: 'Roboto' sans-serif;
+  font-size: 12px;
+  box-sizing: border-box;
+  width: 148px;
+  height: 32px;
+
+ 
+  padding: 8px 16px;
+  gap: 8px;
+
+  border: 0.5px solid #271A45;
+  border-radius: 999px;
+  color: rgba(39, 26, 69, 1);
+  background:rgba(217, 205, 247, 1) ;
+  
+}
+
+input#addCesta:hover {
+  border: 0.5px solid #6a4eaa;
+  cursor: pointer;
+  color: rgb(90, 59, 163);
+}
+
+.hide-image,
+.hide-button {
+  display: none;
+}
+
